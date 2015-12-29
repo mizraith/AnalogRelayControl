@@ -302,7 +302,7 @@ void printSerialInputInstructions( void ) {
     Serial.println(F("#   Format:  >CMD:VALUE<CR><LF>"    ));
     Serial.println(F("#    > is start.  CMDs are:  [get , D6  , SID]"    ));
     Serial.println(F("#   VALUEs:  [1, 0]"    ));
-    Serial.println(F("#   EXAMPLES:   >get     >D6:ON   >D6:OFF  >SID:2929"  ));
+    Serial.println(F("#   EXAMPLES:   >get     >D6:1   >D6:0  >SID:2929"  ));
     Serial.println(F("#   RESPONSE    #SID:1234 A0:128:ARB D6:OFF:BIN"  ));
     Serial.println(F("#   Token is   IDENTIFIER:VALUE:UNITS  where UNITS is optional "  ));
     Serial.println(F("#--------------------------------------------------"));  
